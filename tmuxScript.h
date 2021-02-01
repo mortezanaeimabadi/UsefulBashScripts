@@ -4,7 +4,8 @@
 tmux new-session -d -s mySession 
 
 # 1.1 send command to tmux with "tmux send-keys..."
-# 1.2 note: C-m acts like enter key
+# 1.2 note: C-m acts like enter key, 
+# infact C in 'C-m' is short for Ctrl key; thus 'C-m' means Ctrl+m
 tmux send-keys 'ls -a' 'C-m'
 
 # 2.Then select it:
